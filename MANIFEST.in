@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include easy2way *.css
+recursive-include easy2way *.csv
+recursive-include easy2way *.html
+recursive-include easy2way *.ico
+recursive-include easy2way *.js
+recursive-include easy2way *.json
+recursive-include easy2way *.md
+recursive-include easy2way *.png
+recursive-include easy2way *.py
+recursive-include easy2way *.svg
+recursive-include easy2way *.txt
+recursive-exclude easy2way *.pyc

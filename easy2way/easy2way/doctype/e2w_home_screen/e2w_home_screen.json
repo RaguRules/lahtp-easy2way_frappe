@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "autoname": "E2W-HS-.######",
+ "creation": "2021-03-01 22:14:01.272530",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enable",
+  "order_no",
+  "type",
+  "no_of_grids",
+  "heading",
+  "column_break_5",
+  "heading_image",
+  "section_break_4",
+  "details"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "Enable"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "E2W Home Screen View Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "order_no",
+   "fieldtype": "Data",
+   "label": "Order No",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Table",
+   "label": "Home Screen Details",
+   "options": "E2W Home Screen Detail"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "Data",
+   "label": "Heading"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading_image",
+   "fieldtype": "Attach Image",
+   "label": "Heading Image",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "type.no_of_grids",
+   "fieldname": "no_of_grids",
+   "fieldtype": "Data",
+   "label": "No Of Grids",
+   "read_only": 1
+  }
+ ],
+ "image_field": "heading_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-03-02 15:50:57.526788",
+ "modified_by": "Administrator",
+ "module": "Easy2Way",
+ "name": "E2W Home Screen",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Easy2Way Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

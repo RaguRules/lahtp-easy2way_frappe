@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "creation": "2021-03-01 22:17:56.232800",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "item_or_category",
+  "column_break_3",
+  "item_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "\nItem\nItem Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "item_or_category",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "label": "Item/Category",
+   "options": "type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_image",
+   "fieldtype": "Attach Image",
+   "label": "Item Image",
+   "reqd": 1
+  }
+ ],
+ "image_field": "item_image",
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-03-02 15:54:44.452831",
+ "modified_by": "Administrator",
+ "module": "Easy2Way",
+ "name": "E2W Home Screen Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

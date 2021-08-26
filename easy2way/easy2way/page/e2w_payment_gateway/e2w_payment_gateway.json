@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2021-03-05 18:21:47.593390",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2021-03-09 20:14:22.702863",
+ "modified_by": "Administrator",
+ "module": "Easy2Way",
+ "name": "e2w-payment-gateway",
+ "owner": "Administrator",
+ "page_name": "e2w-payment-gateway",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "E2W Payment Gateway"
+}
